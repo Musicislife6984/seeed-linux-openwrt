@@ -1,0 +1,17 @@
+{
+	"model": {
+		"id": "raspberrypi,4-compute-module",
+		"name": "Raspberry Pi Compute Module 4 Rev 1.0"
+	},
+	"network": {
+		"lan": {
+			"device": "eth0",
+			"protocol": "static"
+                 },
+                "wan": {
+                        "device": "eth1",
+                        "protocol": "dhcp"
+
+		}
+	}
+}
